@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    color-scheme: dark;
+}
+
+body{
+    padding: 0 4vw;
+    background-color: rgb(28, 1, 28);
+}
+
+.title{
+    font-size: 2rem;
+    font-family: cursive;
+    text-transform: capitalize;
+    margin: 1rem   auto;
+}
+
+/*** ----------------------------------------------------------/herosection--------------------------------------------------------- ***/ 
+
+.herosection{
+    box-sizing: content-box;
+    margin: 2.5rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+    place-items: center;
+    height: 100%;
+    padding: 3vw;
+    font-family: cursive;
+    color: aliceblue;
+    cursor:default;
+}
+
+.animeinfo{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    display: flex;  
+    place-content: center;
+    flex-direction: column;
+    text-transform: capitalize;
+    gap: 1rem;
+}
+
+
+.animeimg img{
+    height: 100%;
+    width: 100%;
+    border-radius: calc(3vw - 20px);
+}
+
+.animetitle{
+    font-size: 5rem;
+}
+.rating{
+    font-size: 1.25rem;
+}
+.languages{
+    font-size: 1rem;
+}
+.watchlist button{
+    height: 2.75rem;
+    width: 7.5rem;
+    text-transform: capitalize;
+    font-weight: 550;
+    font-size: 1rem;
+    font-family: cursive;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.review data:hover::after {
+        content: ' ( ' attr(value) 'k)';
+        font-size: 0.7em;
+      }
+      
+
+/* -----------------------x-----------------x------------------/herosection-----------------x---------------------x------------------- */
+
+
+/* ----------------------------------------------------------/description--------------------------------------------------------- */
+
+.description{
+    margin: 3rem auto;
+    font-size: 1.25rem;
+    font-family: cursive;
+
+}
+
+.description_details{
+    font-size: 1rem;
+}
+/* -----------------------x-----------------x------------------/description-----------------x---------------------x------------------- */
+
+
+/* ----------------------------------------------------------/ season section--------------------------------------------------------- */
+.episodesection{
+    font-family: cursive;
+}
+
+
+.seasons{
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: row;
+    overflow-x : scroll ;
+    gap: 3rem;
+}
+
+.ss{
+    margin: 1rem auto;
+    /* padding: 7px 16px; */
+    place-content: center;
+    height: 2.5rem;
+    width: 7rem;
+    font-size: 1.25rem;
+    border: 2px solid;       
+    border-radius: 1rem;
+    text-transform: capitalize;
+}
+
+.ss a{
+    text-decoration: none;
+    color: #afbbbd;
+}
+.ss:hover{
+    box-shadow: 0 0 7px 1px #fce1e1;
+    background: none    ;
+    transition:  ease 600ms;
+}
+/* -----------------------x-----------------x------------------/season section-----------------x---------------------x------------------- */
+
+
+/* ----------------------------------------------------------/episodes--------------------------------------------------------- */
+
+.cardeck{
+    display: flex;
+    flex-direction: row;
+    overflow-x:scroll;
+    gap: 1.5rem;
+    margin: 1rem auto;
+    padding: 1.25rem;
+    text-transform: capitalize;
+}
+
+#seasons{
+    box-sizing: border-box;
+    display: -webkit-box ;
+    -webkit-box-pack: start;
+    -webkit-box-align: start;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type:unset;
+}
+
+.ep{
+    display:flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    gap: 1rem;
+    height: unset;
+    width: 13rem;
+    /* height: 34rem;
+    width: 21rem; optional*/
+    padding: 1.25rem;
+    font-family: cursive;
+    /* border: 2px ridge rgba(255, 255, 255, 0.218); */
+    border-radius: 1.5rem;
+    background-color: #151515;
+}
+
+.ep:hover{
+    box-shadow: 0 0 7px 1px #ffffff;
+    transition:  ease 400ms;
+}
+
+
+
+.episodesimg{
+    height: 100%;
+    /* height: 16rem; */
+    /* height: 27rem; */
+    /* width: 100%; */
+    border: 0;
+    background: none;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 10px 10px #121111;
+}
+.episodesimg img{
+    height: 16rem;
+    /* height: 27rem; */
+    width: 100%;
+    border: 0;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 10px 10px #121111;
+}
+
+.episodes_name{
+    font-size: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+/* -----------------------x-----------------x------------------/episodes-----------------x---------------------x------------------- */
+
+
+
+/* ----------------------------------------------------------character info--------------------------------------------------------- */
+
+.charcards{
+    display: flex;
+    flex-direction: row;
+    overflow-x:scroll;
+    gap: 1.5rem;
+    margin: 1rem auto;
+    padding: 1.5rem;
+}
+
+
+.charinfo{
+    display:flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    gap: 1rem;
+    height: unset;
+    width: 10rem;
+    padding: 1.5rem;
+    font-family: cursive;
+    border-radius: 1.5rem;
+    background-color: #151515;
+}
+
+.char-img img{
+    height: 10rem;
+    width: 100%;
+    border-radius: 1.25rem;
+    box-shadow: 0 0 10px 10px #121111;
+}
+
+.char-name{
+    font-size: 1.25rem;
+}
+
+.charinfo:hover{
+    box-shadow: 0 0 7px 1px #ffffff;
+    transition:  ease 700ms;
+}
+
+/* -----------------------x-----------------x------------------/-----------------x---------------------x------------------- */

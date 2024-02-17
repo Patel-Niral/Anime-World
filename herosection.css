@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.herosection{
+    box-sizing: content-box;
+    margin: 5.25vmax auto;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit,minmax(50%,1fr)); */
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+    place-items: center;
+    font-family: cursive;
+    gap: 3rem;
+    word-spacing: 1vmax;
+    text-transform: capitalize;
+}
+
+.herosection_content{
+    font-size: 5vmax;
+    /* word-break: break-all; */
+}
+
+.herosection_img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 2vmax;
+    background-color: antiquewhite;
+}
