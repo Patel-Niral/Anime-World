@@ -59,7 +59,7 @@ body{
     place-items: center;  gets problem in responsive */
 }
 
-.navlinks a{
+.navlinks ul li a{
     text-decoration: none;
     color: whitesmoke;
 }
