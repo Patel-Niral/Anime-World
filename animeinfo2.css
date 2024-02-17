@@ -14,7 +14,7 @@ body{
 
 .title{
     font-size: 2vmax;
-    font-family: cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: capitalize;
     margin: 1vmax   auto;
 }
@@ -74,7 +74,7 @@ body{
     text-transform: capitalize;
     font-weight: 550;
     font-size: 1.25vmax;
-    font-family: cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
     cursor: pointer;
     background: none;
@@ -97,7 +97,7 @@ body{
 
 .description{
     margin: 4vmax auto;
-    font-family: cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -113,7 +113,7 @@ body{
 
 /* ----------------------------------------------------------/ season section--------------------------------------------------------- */
 .episodesection{
-    font-family: cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
@@ -188,7 +188,7 @@ body{
     height: unset;
     width: 13vmax;
     padding: 1.25vmax;
-    font-family: cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     /* border: 2px ridge rgba(255, 255, 255, 0.218); */
     border: 0.25vmax solid aliceblue;
     border-radius: 1.5vmax;
@@ -245,7 +245,7 @@ body{
     height: unset;
     width: 10vmax;
     padding: 1.5vmax;
-    font-family: cursive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius: 1.5vmax;
     background-color: #151515;
     border: 0.25vmax solid aliceblue;
