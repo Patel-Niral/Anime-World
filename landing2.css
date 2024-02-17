@@ -29,7 +29,7 @@ body{
     place-items: center;
     margin: 3vmax auto ;
     text-transform: capitalize;
-    font-size: 1.35vmax;
+    font-size: 1.45vmax;
     font-family: cursive;
 }
 
@@ -59,6 +59,11 @@ body{
     place-items: center;  gets problem in responsive */
 }
 
+.navlinks a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
 
 /* ----------------------------------slider css------------------------------------------------- */
 
@@ -71,13 +76,9 @@ body{
     background-color: rgba(0, 0, 255, 0.301);
     border-radius: 2vmax;
 } */
-.banner img{
-    margin:  auto;
-    height: 50vh;
-    width: 100%;
-    background-color: rgba(0, 0, 255, 0.301);
-    border-radius: 2vmax;
-}
+
+
+/* ----------------------------------hero section------------------------------------------------- */
 
 .section{
     text-transform: capitalize;
@@ -87,6 +88,16 @@ body{
     font-size: 2.5vmax;
     margin: 1vmax auto;
 }
+.banner img{
+    margin:  auto;
+    height: 50vh;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0.301);
+    border-radius: 2vmax;
+}
+
+
+/* -----------x-----------x------------hero section-------------x-----------------x ------------------- */
 
 
 
@@ -94,7 +105,7 @@ body{
     display: flex;
     flex-direction: row;
     overflow-x:scroll;
-    gap: 1.5vmax;
+    gap: 1.75vmax;
     margin: 1vmax auto;
     padding: 1.5vmax;
 }
@@ -140,4 +151,23 @@ body{
     font-size: 1.25vmax;
 }
 
-   
+#aboutus{
+    margin: 6vmax auto;
+    word-spacing: 0.15vmax;
+    letter-spacing: 0.05vmax;
+    line-height: 2.15vmax;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.aboutus{
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 3vmax;
+    margin: 4vmax auto;
+}
+
+.abtus{
+    font-size: 1.5vmax ;
+    margin: 2vmax auto;
+}
