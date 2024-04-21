@@ -2,7 +2,7 @@
 Its is just a site to watch Anime 
 
 ## 1 Infomartion on site
-$ For now it is just single page website so it contain limited number of Anime Shows.
+$nn For now it is just single page website so it contain limited number of Anime Shows.
 
 
 <br>
